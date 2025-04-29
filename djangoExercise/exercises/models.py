@@ -5,8 +5,8 @@ class Clientes (models.model):
     fecha=models.DateTimeField()
     nombreEmpleado= models.ForeignKey(Empleados)
 
-    def__str__(self):
-        return self.nombre
+    def __str__(self):
+       return {self.nombre}
 
 
 
